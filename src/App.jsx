@@ -5,10 +5,10 @@ const App = () => {
   return (
   <main className="relative">
       <Nav />
-    <section className="xl:padding-1 wide:padding-r oadding-b">
+    <section className="xl:padding-l wide:padding-r oadding-b">
       <Hero />
     </section>  
-    <section className="padding">
+    <section id='products' className="padding">
       <PopularProducts />
     </section>  
     <section className="padding">
