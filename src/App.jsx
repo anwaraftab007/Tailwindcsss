@@ -23,10 +23,10 @@ const App = () => {
     <section className="bg-blue-500/10 padding">
       <CustomerReviews />
     </section>  
-    <section className="padding-x sm:py-32 py-16 w-full">
+    <section className="sm:px-16 px-8 sm:py-32 py-16 w-full">
       <Subscribe />
     </section>  
-    <section className="bg-black padding-x pading-t pb-8">
+    <section className="bg-black sm:px-16 px-8 sm:pt-24 pt-12 pb-8">
       <Footer />
     </section>
   </main>
