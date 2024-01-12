@@ -14,8 +14,8 @@ const Nav = () => {
   };
   const Menu = ({isOpen}) => {
     return (
-      <div className="container relative m-auto p-3 flex justify-between items-center max-lg:top-9">
-      <ul className={`lg:flex-1 lg:flex lg:justify-center items-center gap-16 max-lg:grid max-lg:grid-cols-1 max-lg:bg-red-500 max-lg:text-white max-lg:p-7`}>
+      <div className="lg:hidden container relative m-auto p-3 flex justify-between items-center max-lg:top-9">
+      <ul className={`items-center gap-16 grid grid-cols-1 bg-red-500 text-white p-7`}>
     {navLinks.map((item) => (
       <li key={item.label}>
         <a href={item.href}
