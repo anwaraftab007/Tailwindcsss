@@ -15,11 +15,11 @@ const Nav = () => {
   const Menu = ({isOpen}) => {
     return (
       <div className="lg:hidden container relative m-auto p-3 flex justify-between items-center max-lg:top-9">
-      <ul className={`items-center gap-16 grid grid-cols-1 bg-red-500 text-white p-7`}>
+      <ul className={`items-center gap-16 grid grid-cols-1 bg-red-500 text-white p-7 `}>
     {navLinks.map((item) => (
       <li key={item.label}>
         <a href={item.href}
-        className="block max-lg:inline-block font-montserrat leading-normal text-lg text-slate-gray">
+        className="block max-lg:inline-block font-montserrat leading-normal text-lg text-slate-gray hover:text-gray-300">
           {item.label}
         </a>
       </li>
@@ -29,7 +29,7 @@ const Nav = () => {
     )
   }
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-8 absolute w-full z-20">
         <nav className="max-lg:relative flex justify-between max-lg:justify-end items-center max-container">
           <a className="max-lg:absolute max-lg:left-0 max-lg:top-1" href="#">
            <img src={headerLogo} alt="Nike logo" width={130} height={29}/>
